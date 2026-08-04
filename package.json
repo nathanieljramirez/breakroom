@@ -1,0 +1,10 @@
+{
+  "name": "breakroom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "dependencies": {
+    "@slack/bolt": "^5.0.0",
+    "dotenv": "^17.4.2"
+  }
+}
