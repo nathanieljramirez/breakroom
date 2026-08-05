@@ -2,6 +2,11 @@
 
 Bored in the breakroom? Try out Breakroom bot!
 
+https://hackclub.enterprise.slack.com/archives/C0BMWQ70HMH
+
+> [!INFO]
+> This link opens a Hack Club channel so you can test it out.
+
 ## Commands
 
 `/breakroom-ping`: Check server latency!
