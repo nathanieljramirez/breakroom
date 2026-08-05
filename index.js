@@ -26,6 +26,20 @@ app.command("/breakroom-decide", async ({ ack, respond }) => {
   }
 });
 
+app.command("/breakroom-joke", async ({ ack, respond }) => {
+  await ack();
+  try {
+    const response = await axios.get(
+      "https://v2.jokeapi.dev/joke/Any?format=txt",
+    );
+    await respond({ text: response.data });
+  } catch (err) {
+    await respond({
+      text: "Why did the chicken cross the road? \n I don't know...",
+    });
+  }
+});
+
 (async () => {
   await app.start();
   console.log("bot is running!");
