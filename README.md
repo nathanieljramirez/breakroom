@@ -2,10 +2,7 @@
 
 Bored in the breakroom? Try out Breakroom bot!
 
-https://hackclub.enterprise.slack.com/archives/C0BMWQ70HMH
-
-> [!NOTE]  
-> This link opens a Hack Club channel so you can test it out.
+[Demo Link](https://hackclub.enterprise.slack.com/archives/C0BMWQ70HMH)
 
 ## Commands
 
