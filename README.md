@@ -10,6 +10,10 @@ Bored in the breakroom? Try out Breakroom bot!
 
 `/breakroom-joke`: Get a random joke.
 
+## What it looks like:
+
+<img src="./demo.gif">
+
 ## Editing
 
 ```bash
