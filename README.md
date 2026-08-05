@@ -16,11 +16,15 @@ Bored in the breakroom? Try out Breakroom bot!
 
 <img src="./demo.gif">
 
-## Editing
+## Development
+
+First make sure to install all the required dependencies
 
 ```bash
 npm install
 ```
+
+Modify the source code open `index.js` in your code editor. Once you're done run the code by putting this in your terminal.
 
 ```bash
 node index.js
