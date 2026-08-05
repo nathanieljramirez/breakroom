@@ -30,7 +30,7 @@ app.command("/breakroom-joke", async ({ ack, respond }) => {
   await ack();
   try {
     const response = await axios.get(
-      "https://v2.jokeapi.dev/joke/Any?format=txt",
+      "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&format=txt",
     );
     await respond({ text: response.data });
   } catch (err) {
