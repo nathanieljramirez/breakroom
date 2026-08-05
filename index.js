@@ -1,4 +1,5 @@
 require("dotenv").config();
+const axios = require("axios");
 
 const { App } = require("@slack/bolt");
 
@@ -13,6 +14,16 @@ app.command("/breakroom-ping", async ({ command, ack, respond }) => {
   await ack();
   const latency = Date.now() - start;
   await respond({ text: `Pong!\nLatency: ${latency}ms` });
+});
+
+app.command("/breakroom-decide", async ({ ack, respond }) => {
+  await ack();
+  try {
+    const response = await axios.get("https://www.eightballapi.com/api");
+    await respond({ text: response.data.reading });
+  } catch (err) {
+    await respond({ text: "Definitely not." });
+  }
 });
 
 (async () => {
