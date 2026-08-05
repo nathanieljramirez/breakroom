@@ -24,7 +24,7 @@ First make sure to install all the required dependencies
 npm install
 ```
 
-Modify the source code open `index.js` in your code editor. Once you're done run the code by putting this in your terminal.
+Modify the source code by opening `index.js` in your code editor. Once you're done run the code by putting this in your terminal.
 
 ```bash
 node index.js
